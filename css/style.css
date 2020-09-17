@@ -16,6 +16,10 @@ body {
     border: 3px dotted red;
 }
 
+.nav-extended {
+    background-color: #90a4ae;
+}
+
 header {
     height: 200px;
 }
