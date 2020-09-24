@@ -10,7 +10,10 @@ body {
     flex-direction: column;
 }
 
-
+.brand-logo {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
 
 .outline {
     border: 3px dotted red;
@@ -20,8 +23,12 @@ body {
     background-color: #90a4ae;
 }
 
+
 header {
-    height: 200px;
+    height: 180px;
+    background-image: url('../Images/Banner.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 main {
@@ -31,5 +38,8 @@ main {
 footer {
     display: flex;
     justify-content: center;
-    height: 50px;
+    height: 20px;
+    background-color: #90a4ae;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    color: whitesmoke;
 }
