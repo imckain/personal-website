@@ -25,8 +25,8 @@ body {
 
 
 header {
-    height: 180px;
-    background-image: url('../Images/Banner.jpg');
+    height: 200px;
+    background-image: url('Images/codingimg.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -37,9 +37,25 @@ main {
 
 footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    height: 20px;
+    align-items: center;
+    height: 120px;
     background-color: #90a4ae;
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     color: whitesmoke;
+}
+
+footer h3 {
+    margin: 0 0 0 0;
+    font-size: 20px;
+}
+
+footer section a {
+    color: whitesmoke;
+}
+
+i {
+    font-size: 40px;
+    margin: 10px 0px 10px 0px;
 }
