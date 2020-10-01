@@ -23,12 +23,24 @@ body {
     background-color: #90a4ae;
 }
 
-
 header {
-    height: 200px;
-    background-image: url('Images/codingimg.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-image: url('/Images/codingimg.jpg');
     background-size: cover;
     background-position: center;
+}
+
+header img {
+    height: 100px;
+    border: 3px solid #90a4ae;
+    margin-left: 30px;
+}
+
+header h3 {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
 
 main {
